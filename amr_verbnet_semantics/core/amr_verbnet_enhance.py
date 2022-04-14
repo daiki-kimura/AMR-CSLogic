@@ -26,7 +26,7 @@ from nltk import sent_tokenize
 
 
 def ground_text_to_verbnet(text,
-                           amr=None, use_coreference=True, verbose=False):
+                           use_coreference=True, verbose=False):
     sentences = sent_tokenize(text)
     if verbose:
         print("text:", text)
